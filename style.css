@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400&display=swap");
 *,
 *::before,
 *::after {
@@ -104,5 +104,8 @@ footer h2 {
 
 .card p {
   padding: 0 1em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.4;
 }
 /*# sourceMappingURL=style.css.map */
