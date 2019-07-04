@@ -1,0 +1,35 @@
+$card-color: #fff
+$bg-text-card: rgba(#000,0.7)
+
+.cards
+    margin-top: 1em
+    display: flex
+
+.card
+    background: $card-color
+    flex-grow: 1
+    flex-basis: 0
+    margin-left: 1em
+    border-radius: 10px
+
+    &:last-child
+        margin-right: 1em
+
+    h2
+        border-radius: 10px 10px 0 0
+        margin: 0
+        padding: 0.5em
+        background: $bg-text-card
+        text-align: center
+        color: #fff
+    
+    img
+        margin-top: 1em
+        width: 90%
+        display: block
+        margin-left: auto
+        margin-right: auto
+    
+    p
+        padding: 0 1em
+    
