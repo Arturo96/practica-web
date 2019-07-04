@@ -9,7 +9,7 @@
 body {
   margin: 0;
   padding-top: 50px;
-  background: #eceff1;
+  background: #ffea00;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -17,6 +17,7 @@ header {
   top: 0;
   width: 100%;
   position: fixed;
+  z-index: 1;
 }
 
 .menu {
@@ -67,6 +68,7 @@ footer {
 
 footer h2 {
   padding: 0.5em 0;
+  margin-bottom: 0;
 }
 
 .cards {
@@ -124,5 +126,9 @@ iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.bx-wrapper, .bx-viewport {
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
