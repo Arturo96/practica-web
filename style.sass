@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap')
+
+$menu-color: #000a12
+$menu-hover: #4f5b62
+
+*, 
+*::before,
+*::after 
+    box-sizing: border-box
+
+body 
+    margin: 0
+    padding: 0
+    background: #eceff1
+    font-family: 'Roboto Condensed', sans-serif
+
+.menu 
+    margin-top: 0
+    margin-bottom: 0
+    padding-left: 0
+    list-style: none
+    background: $menu-color
+    display: flex
+
+.menu-item 
+    flex: auto
+    text-align: center
+    position: relative
+
+.menu-link 
+    display: block
+    text-decoration: none
+    color: #eee
+    line-height: 3
+    
+
+.menu-link:hover 
+    background: $menu-hover
+
+.submenu 
+    display: none
+    position: absolute
+    width: 100%
+
+.menu-item:hover .submenu 
+    display: block
+
+footer
+    background: $menu-color
+    color: #fff
+    text-align: center
+    
+    
+    h2 
+        padding: 0.5em 0
+
+
+
+// @media screen and (max-width: 678px) 
+//     .menu 
+//         display: block
+    
+

@@ -1,0 +1,41 @@
+- 
+    let items = ['Inicio', 'Quienes Somos', 'Productos', 'Servicios', 'Contacto'],
+        productos = ['Kaspersky', 'ESET', 'BitDefender', 'Sophos', 'Fortinet']
+
+
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="style.css")
+        title Menú responsive
+    body
+        header
+            nav.navigation
+                ul.menu
+                    each item in items
+                        li.menu-item
+                            a.menu-link(href="#")= item
+                            if item == "Productos"
+                                ul(class="menu submenu")
+                                    each producto in productos
+                                        li.menu-item
+                                            a.menu-link(href="#")= producto
+        main
+            section.cards
+                .card
+                    h2 Consultoría
+                    img(src="", alt="Imagen de consultoría")
+                    p
+                .card
+                    h2 Licenciamiento de Software
+                    img(src="", alt="Imagen de Licenciamiento de Software")
+                    p
+                .card
+                    h2 Soporte técnico
+                    img(src="", alt="Soporte técnico")
+                    p
+        footer: h2 Carlos Arturo Vargas &copy;
+
