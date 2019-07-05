@@ -1,0 +1,51 @@
+header
+    top: 0
+    width: 100%
+    position: fixed
+    z-index: 1
+
+header, .submenu
+    background: $menu-color
+
+
+.navigation
+    display: flex
+
+.logo
+    width: 20%
+    align-self: center
+
+    img
+        display: block
+        margin: auto
+
+.menu 
+    width: 80%
+    margin-top: 0
+    margin-bottom: 0
+    padding-left: 0
+    list-style: none
+    display: flex
+
+.menu-item 
+    flex: auto
+    text-align: center
+    position: relative
+
+.menu-link 
+    display: block
+    text-decoration: none
+    color: #eee
+    line-height: 3
+    
+
+.menu-link:hover 
+    background: $menu-hover
+
+.submenu 
+    display: none
+    position: absolute
+    width: 100%
+
+.menu-item:hover .submenu 
+    display: block

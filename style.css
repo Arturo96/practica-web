@@ -20,12 +20,34 @@ header {
   z-index: 1;
 }
 
+header, .submenu {
+  background: #000a12;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo {
+  width: 20%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.logo img {
+  display: block;
+  margin: auto;
+}
+
 .menu {
+  width: 80%;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
-  background: #000a12;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,15 +82,12 @@ header {
   display: block;
 }
 
-footer {
-  background: #000a12;
-  color: #fff;
-  text-align: center;
+.bx-wrapper {
+  border: none !important;
 }
 
-footer h2 {
-  padding: 0.5em 0;
-  margin-bottom: 0;
+.bx-wrapper img {
+  width: 100%;
 }
 
 .cards {
@@ -128,11 +147,14 @@ iframe {
   margin-right: auto;
 }
 
-.bx-wrapper {
-  border: none !important;
+footer {
+  background: #000a12;
+  color: #fff;
+  text-align: center;
 }
 
-.bx-wrapper img {
-  width: 100%;
+footer h2 {
+  padding: 0.5em 0;
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */

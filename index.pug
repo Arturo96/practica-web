@@ -1,5 +1,5 @@
 - 
-    let items = ['Inicio', 'Quienes Somos', 'Productos', 'Servicios', 'Contacto'],
+    let items = ['Quienes Somos', 'Productos', 'Servicios', 'Contacto'],
         productos = ['Kaspersky', 'ESET', 'BitDefender', 'Sophos', 'Fortinet']
 
 
@@ -18,6 +18,8 @@ html(lang="en")
     body
         header
             nav.navigation
+                .logo
+                    img(src="img/it_header.png", alt="IT & Security Consultores Ltda")
                 ul.menu
                     each item in items
                         li.menu-item
@@ -53,6 +55,6 @@ html(lang="en")
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-        script(src="slider.js")
+        script(src="js/slider.js")
         footer: h2 &copy; 2019 All Rights Reserved CARLOS S.A
 

@@ -14,59 +14,14 @@ body
     background: #ffea00
     font-family: 'Roboto Condensed', sans-serif
 
-header
-    top: 0
-    width: 100%
-    position: fixed
-    z-index: 1
-
-.menu 
-    margin-top: 0
-    margin-bottom: 0
-    padding-left: 0
-    list-style: none
-    background: $menu-color
-    display: flex
-
-.menu-item 
-    flex: auto
-    text-align: center
-    position: relative
-
-.menu-link 
-    display: block
-    text-decoration: none
-    color: #eee
-    line-height: 3
-    
-
-.menu-link:hover 
-    background: $menu-hover
-
-.submenu 
-    display: none
-    position: absolute
-    width: 100%
-
-.menu-item:hover .submenu 
-    display: block
-
-footer
-    background: $menu-color
-    color: #fff
-    text-align: center
-    
-    
-    h2 
-        padding: 0.5em 0
-        margin-bottom: 0
-
+@import "sass-modules/header"
+@import "sass-modules/carrousel"
 @import "sass-modules/cards"
 @import "sass-modules/location"
-@import "sass-modules/carrousel"
+@import "sass-modules/footer"
 
-// @media screen and (max-width: 678px) 
-//     .menu 
-//         display: block
+
+
+
     
 
