@@ -8,7 +8,7 @@
 
 body {
   margin: 0;
-  padding-top: 50px;
+  padding-top: 48px;
   background: #ffea00;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -128,7 +128,11 @@ iframe {
   margin-right: auto;
 }
 
-.bx-wrapper, .bx-viewport {
-  height: 100%;
+.bx-wrapper {
+  border: none !important;
+}
+
+.bx-wrapper img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
