@@ -137,6 +137,12 @@ header, .submenu {
   line-height: 1.4;
 }
 
+.location {
+  background: #002171;
+  color: #f5f5f5;
+  padding-bottom: 2rem;
+}
+
 .location-title {
   text-align: center;
   font-size: 2em;
@@ -158,11 +164,8 @@ header, .submenu {
 }
 
 .contact {
-  background: #002171;
-  color: #f5f5f5;
   font-family: 'Oswald', sans-serif;
   font-size: 1.2em;
-  border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,6 +183,7 @@ header, .submenu {
 
 iframe {
   display: block;
+  margin: auto;
   border: 5px solid rgba(0, 0, 0, 0.7);
   border-radius: 5px;
 }
@@ -192,6 +196,6 @@ footer {
 
 footer h2 {
   padding: 0.5em 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
